@@ -1,0 +1,29 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-justified .active{
+    border-bottom: 1px solid red;
+}
+
+.tab-content .noDecoration, a:link, a:visited {
+    color: black;
+}
+.lg span{
+     display: none;
+}
+
+.lg .active{
+    color: blue;
+}
+.lg .active span{
+    display: block;
+}
+
+.ls{
+    width:50px;
+    color: white;
+    background-color: lightblue;
+    border-radius: 50%;
+}
